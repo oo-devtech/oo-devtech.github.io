@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: events
 title: "Tech Conference 2024"
 published: true
 date: 2024-09-15 09:00:00
