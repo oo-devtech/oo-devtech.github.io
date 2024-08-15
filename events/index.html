@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Events"
+---
+
+<h1>Upcoming Events</h1>
+<ul>
+    {% assign events = site.events | sort: 'date' %}
+    {% for event in events %}
+        <li>
+            <a href="{{ event.url | relative_url }}">{{ event.title }}</a><br>
+            <small>{{ event.date | date: "%B %d, %Y" }} - {{ event.location }}</small>
+            <p>{{ event.description }}</p>
+        </li>
+    {% endfor %}
+</ul>
