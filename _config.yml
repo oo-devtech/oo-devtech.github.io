@@ -3,4 +3,4 @@ description: Bookmark this to keep an eye on my project updates!
 collections:
   events:
     output: true
-    permalink: /event-list/:name/
+    permalink: /_events/:name/
