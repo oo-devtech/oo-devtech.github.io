@@ -1,5 +1,6 @@
 title: oo-devtech's homepage
 description: Bookmark this to keep an eye on my project updates!
+theme: jekyll-theme-minimal
 collections:
   events:
     output: true
